@@ -217,7 +217,7 @@ p {
     display: inline-block;
     text-decoration: none;
     background: #476f95;
-    color: #ffffff;
+    color: white;
     border-radius: 666px;  /*give the link a round shape*/
     padding: 10px 14px;
     font-size: calc(12px + 0.2vw);

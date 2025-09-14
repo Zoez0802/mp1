@@ -53,6 +53,7 @@ function doPow() {
     let exponentNumber =Number(two.value);
     let Answer=1;
 
+    //number 2 could be negative so we use math.abs
     for (let count=0; count < Math.abs(exponentNumber); count++) {
         Answer = Answer*baseNumber;
     }
@@ -67,7 +68,7 @@ function doPow() {
     }
 }
 
-
+//clean all inputs and result
 function clearAll() {
     one.value = "";
     two.value = "";
