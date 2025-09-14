@@ -40,30 +40,34 @@ nav{
 
 nav ul {
     display: flex;
-    gap: 10px;
+    gap: 20px;
     list-style: none;
     padding: 10px;
     flex-direction: column;
     flex-wrap: wrap;
     margin: 0 auto;
 
+
 }
 
 nav li {
-    border: 5px solid black;
-    border-radius: 50%;
+    border: 2px solid lightskyblue;
+    border-radius: 12px;
+
 
 }
 
 nav a {
+    display: block;
+    text-align: center;
+    background: #476f95;
     color: white;
     font-weight: bold;
-    font-size: calc(18px + 0.3vw);
-    padding: 20px 10px;
-    display: block;
+    font-size: calc(16px + 0.3vw);
+    padding: 14px 20px;
     text-decoration: none;
-    white-space: nowrap;
-    gap: 60px;
+    border-radius: 12px;
+
 }
 
 
@@ -462,5 +466,6 @@ footer {
 
     }
 }
+
 
 
